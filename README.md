@@ -26,9 +26,6 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
          | 4 bits |   6 bits  |  6 bits  |
 
  * Instruction Set Supported:
-        <details>
-           <summary>Instruction Set Supported</summary>
-           <p>| Opcode |     R1    |    R2    | 
-              |--------|-----------|----------|
-              | 4 bits |   6 bits  |  6 bits  |</p>
-         </details>
+         | Opcode |     R1    |Immeadiate| 
+         |--------|-----------|----------|
+         | 4 bits |   6 bits  |  6 bits  |
