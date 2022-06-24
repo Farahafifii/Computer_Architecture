@@ -41,4 +41,11 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
     | SRC |   SRC R1 R2  |  R1 = R1 >>> IMM \| R1 << 8 - IMM  |
     | LB |   LB R1 ADDRESS  |  R1 = MEM[ADDRESS] |
     | SB |   SB R1 ADDRESS  |  MEM[ADDRESS] = R1 |
-         
+
+## DataPath
+### Stages = 3 
+  * Instruction Fetch (IF)
+  * Instruction Decode (ID)
+  * Instruction Execute (EX)
+
+  Pipeline: Maximum 3 instructions running in parallel     
