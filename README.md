@@ -1,17 +1,7 @@
 ## Description 
 
-This is an implementation of the Harvard Computer Architecture using Java where the Data Memory and the Instruction Memeory are Seperated
+This is a simulation of a fictional processor design and architecture (Harvard Architecture) using Java
 
+## Memory Structure 
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
+A Harvard Architecture in which the Instruction data and Program Data are stored in two different memories `Data Memory size is 2048 rows,1 byte/row while Instruction Memory size is 1024 2 bytes/row `
