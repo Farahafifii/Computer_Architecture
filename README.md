@@ -26,7 +26,6 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
          | 4 bits |   6 bits  |  6 bits  |
 
  * Instruction Set Supported:
-
          | Name |     Format    |Operation            | 
          |----|---|--- |
          | ADD |   ADD R1 R2  |  R1 = R1+R2           |
