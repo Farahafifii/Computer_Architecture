@@ -36,6 +36,9 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
     | BEQZ|  BEQZ R1 IMM |  IF (R1==0){ PC = PC+1 + IMM}   |
     | AND |   AND R1 R2  |  R1 = R1&R2   |
     | OR |   OR R1 R2  |  R1 = R1 \| R2   |
-    | JR |   JR R1 R2  |  PC = R1 \|\|R2  |
-    | SLC |   SLC R1 R2  |  R1 = R1 << IMM | R1 >>> 8 - IMM  |
+    | JR |   JR R1 R2  |  PC = R1 \|\| R2  |
+    | SLC |   SLC R1 R2  |  R1 = R1 << IMM \| R1 >>> 8 - IMM  |
+    | SRC |   SRC R1 R2  |  R1 = R1 >>> IMM \| R1 << 8 - IMM  |
+    | LB |   LB R1 ADDRESS  |  R1 = MEM[ADDRESS] |
+    | SB |   SB R1 ADDRESS  |  MEM[ADDRESS] = R1 |
          
