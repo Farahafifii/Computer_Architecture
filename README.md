@@ -14,9 +14,8 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
 ## Instruction Set Architecture
  * Instruction Size : 16 bits 
  * Intruction Types : 
- 
-         |           R - Format          |
-         | ----------------------------- |
+     * R-Type:
+     
          | Opcode |     R1    |    R2    | 
          |-------------------------------|
          | 4 bits |   6 bits  |  6 bits  |
