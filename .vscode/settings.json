@@ -3,13 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar"
-    ]//,
-    /*"java.configuration.runtimes": [
-        {
-          "name": "JavaSE-1.8",
-          "path": "jdk1.8.0_25\\jdk1.8.0_25",
-          "default" : true
-        }
-       
-      ]*/
+    ]
+  
 }

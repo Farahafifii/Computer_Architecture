@@ -1,6 +1,7 @@
-## Getting Started
+## Description 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is an implementation of the Harvard Computer Architecture using Java where the Data Memory and the Instruction Memeory are Seperated
+
 
 ## Folder Structure
 
