@@ -25,16 +25,17 @@ A Harvard Architecture in which the Instruction data and Program Data are stored
          |--------|-----------|----------|
          | 4 bits |   6 bits  |  6 bits  |
 
- * Instruction Set Supported:
-         | Name |     Format    |Operation            | 
-         |----|---|--- |
-         | ADD |   ADD R1 R2  |  R1 = R1+R2           |
-         | SUB |   SUB R1 R2  |  R1 = R1-R2           |
-         | MUL |   MUL R1 R2  |  R1 = R1*R2           |
-         | LDI |   LDI R1 IMM |  R1 = IMM             |
-         | BEQZ|  BEQZ R1 IMM |  IF (R1==0){ PC = PC+1 + IMM}   |
-         | AND |   AND R1 R2  |  R1 = R1&R2   |
-         | OR |   OR R1 R2  |  R1 = R1 |\ R2   |
-         | JR |   JR R1 R2  |  PC = R1 |\|\R2  |
-         | OR |   OR R1 R2  |  R1 = R1 | R2   |
+ * Instruction Set Supported
+         
+    | Name |     Format    |Operation            | 
+    |----|---|--- |
+    | ADD |   ADD R1 R2  |  R1 = R1+R2           |
+    | SUB |   SUB R1 R2  |  R1 = R1-R2           |
+    | MUL |   MUL R1 R2  |  R1 = R1*R2           |
+    | LDI |   LDI R1 IMM |  R1 = IMM             |
+    | BEQZ|  BEQZ R1 IMM |  IF (R1==0){ PC = PC+1 + IMM}   |
+    | AND |   AND R1 R2  |  R1 = R1&R2   |
+    | OR |   OR R1 R2  |  R1 = R1 |\ R2   |
+    | JR |   JR R1 R2  |  PC = R1 |\|\R2  |
+    | OR |   OR R1 R2  |  R1 = R1 | R2   |
          
